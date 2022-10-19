@@ -1,6 +1,7 @@
 package Controlador;
+import Modelo.*;
 
-Pedido pdo = new Pedido();
+Pedido pdo;
 public class TomarPedidoController {
 
 
