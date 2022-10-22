@@ -1,9 +1,10 @@
 package Controlador;
 import Modelo.*;
 
-Pedido pdo;
-public class TomarPedidoController {
 
+public class TomarPedidoController {
+    Pedido pdo;
+    private char tipo= ' ';
 
     public void generarNuevoPedido(){
         if (tipo =='d') {
